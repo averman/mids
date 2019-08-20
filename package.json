@@ -9,6 +9,8 @@
     "build": "rm -rf build && mkdir build && npm run build:ts && npm run build:ts.d",
     "build:ts": "tsc --project tsconfig.build.json --outDir build",
     "build:ts.d": "tsc -d --project tsconfig.build.json --outDir build --emitDeclarationOnly",
+		"preversion": "npm run cov",
+		"version": "git add .",
     "test": "mocha",
     "cov": "nyc mocha",
     "tsc": "tsc"
