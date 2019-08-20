@@ -1,0 +1,17 @@
+typed         serializable         comparable
+  |                  |                   |
+  |                  |                   |
+  |                  ---------------------
+  |                          |
+  |                        IKey
+  |                          |
+  ----------------------------
+          |           |  
+          |           |  
+      RangedKey    KeyedItem
+          |           |
+          |           |
+          -------------
+                |
+                |
+            PartialStore
