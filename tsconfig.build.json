@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "target": "es2017",
+    "target": "es6",
     "outDir": "build",
-    "sourceMap": true,
+    "sourceMap": false,
     "moduleResolution": "node",
     "pretty": false
   },

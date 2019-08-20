@@ -180,4 +180,4 @@ extends PartialStoreCore<KEY,VALUE>{
 }
 
 export default PartialStore;
-export {PartialStore};
+export {PartialStore, PartialStoreCore};
