@@ -2,10 +2,11 @@
   "name": "mids",
   "version": "0.0.1",
   "description": "Multiple Interpretation Data Store",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.js",
   "scripts": {
     "start": "node -r ts-node/register src/index.ts",
-    "build": "npm run build:ts && npm run build:ts.d && rm -rf tsout",
+    "build": "npm run build:ts && npm run build:ts.d",
     "build:ts": "tsc --project tsconfig.build.json --outDir build",
     "build:ts.d": "tsc -d --project tsconfig.build.json --outDir build --emitDeclarationOnly",
     "test": "mocha",
