@@ -35,7 +35,7 @@
   "devDependencies": {
     "source-map-support": "^0.5.13",
     "ts-node": "^8.3.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.1",
     "rimraf": "^3.0.0",
     "@types/mocha": "^5.2.6",
